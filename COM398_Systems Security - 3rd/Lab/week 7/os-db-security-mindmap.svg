@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#f8f9fa" />
+  
+  <!-- Main Node -->
+  <circle cx="600" cy="450" r="70" fill="#6a0dad" />
+  <text x="600" y="455" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">OS and Database Security</text>
+  
+  <!-- Level 1 Nodes and Connections -->
+  <!-- OS Security -->
+  <circle cx="300" cy="180" r="60" fill="#3056d3" />
+  <text x="300" y="185" font-family="Arial" font-size="16" fill="white" text-anchor="middle">OS Security</text>
+  <path d="M556 404 L340 215" stroke="#3056d3" stroke-width="3" fill="none" />
+  
+  <!-- DB Security -->
+  <circle cx="300" cy="720" r="60" fill="#d30530" />
+  <text x="300" y="725" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Database Security</text>
+  <path d="M556 496 L340 685" stroke="#d30530" stroke-width="3" fill="none" />
+  
+  <!-- Linux/Unix Security -->
+  <circle cx="900" cy="180" r="60" fill="#05d371" />
+  <text x="900" y="185" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Linux/Unix Security</text>
+  <path d="M644 404 L860 215" stroke="#05d371" stroke-width="3" fill="none" />
+  
+  <!-- Windows Security -->
+  <circle cx="900" cy="720" r="60" fill="#d37105" />
+  <text x="900" y="725" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Windows Security</text>
+  <path d="M644 496 L860 685" stroke="#d37105" stroke-width="3" fill="none" />
+  
+  <!-- Virtualization Security -->
+  <circle cx="1000" cy="450" r="60" fill="#05a1d3" />
+  <text x="1000" y="450" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Virtualization</text>
+  <text x="1000" y="470" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Security</text>
+  <path d="M670 450 L940 450" stroke="#05a1d3" stroke-width="3" fill="none" />
+  
+  <!-- Level 2 Nodes and Connections -->
+  <!-- OS Security Subnodes -->
+  <!-- OS Goals -->
+  <circle cx="120" cy="80" r="40" fill="#8096e3" />
+  <text x="120" y="85" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Security Goals</text>
+  <path d="M252 150 L150 100" stroke="#8096e3" stroke-width="2" fill="none" />
+  
+  <!-- OS Hardening -->
+  <circle cx="120" cy="180" r="40" fill="#8096e3" />
+  <text x="120" y="180" font-family="Arial" font-size="12" fill="white" text-anchor="middle">System</text>
+  <text x="120" y="195" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Hardening</text>
+  <path d="M260 180 L160 180" stroke="#8096e3" stroke-width="2" fill="none" />
+  
+  <!-- Security Maintenance -->
+  <circle cx="120" cy="280" r="40" fill="#8096e3" />
+  <text x="120" y="280" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Security</text>
+  <text x="120" y="295" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Maintenance</text>
+  <path d="M252 210 L150 260" stroke="#8096e3" stroke-width="2" fill="none" />
+  
+  <!-- Database Security Subnodes -->
+  <!-- DB Fundamentals -->
+  <circle cx="120" cy="620" r="40" fill="#e38080" />
+  <text x="120" y="620" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Database</text>
+  <text x="120" y="635" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Fundamentals</text>
+  <path d="M252 690 L150 640" stroke="#e38080" stroke-width="2" fill="none" />
+  
+  <!-- SQL Injection -->
+  <circle cx="120" cy="720" r="40" fill="#e38080" />
+  <text x="120" y="720" font-family="Arial" font-size="12" fill="white" text-anchor="middle">SQL</text>
+  <text x="120" y="735" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Injection</text>
+  <path d="M260 720 L160 720" stroke="#e38080" stroke-width="2" fill="none" />
+  
+  <!-- DB Access Control -->
+  <circle cx="120" cy="820" r="40" fill="#e38080" />
+  <text x="120" y="820" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Access</text>
+  <text x="120" y="835" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Control</text>
+  <path d="M252 750 L150 800" stroke="#e38080" stroke-width="2" fill="none" />
+  
+  <!-- Linux/Unix Security Subnodes -->
+  <!-- Patch Management -->
+  <circle cx="1080" cy="80" r="40" fill="#80e380" />
+  <text x="1080" y="80" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Patch</text>
+  <text x="1080" y="95" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Management</text>
+  <path d="M948 150 L1050 100" stroke="#80e380" stroke-width="2" fill="none" />
+  
+  <!-- User Configuration -->
+  <circle cx="1080" cy="180" r="40" fill="#80e380" />
+  <text x="1080" y="180" font-family="Arial" font-size="12" fill="white" text-anchor="middle">User/Group</text>
+  <text x="1080" y="195" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Configuration</text>
+  <path d="M960 180 L1040 180" stroke="#80e380" stroke-width="2" fill="none" />
+  
+  <!-- Service Config -->
+  <circle cx="1080" cy="280" r="40" fill="#80e380" />
+  <text x="1080" y="280" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Service</text>
+  <text x="1080" y="295" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Configuration</text>
+  <path d="M948 210 L1050 260" stroke="#80e380" stroke-width="2" fill="none" />
+  
+  <!-- Windows Security Subnodes -->
+  <!-- Windows Updates -->
+  <circle cx="1080" cy="620" r="40" fill="#e3c080" />
+  <text x="1080" y="620" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Windows</text>
+  <text x="1080" y="635" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Updates</text>
+  <path d="M948 690 L1050 640" stroke="#e3c080" stroke-width="2" fill="none" />
+  
+  <!-- UAC -->
+  <circle cx="1080" cy="720" r="40" fill="#e3c080" />
+  <text x="1080" y="720" font-family="Arial" font-size="12" fill="white" text-anchor="middle">User Account</text>
+  <text x="1080" y="735" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Control</text>
+  <path d="M960 720 L1040 720" stroke="#e3c080" stroke-width="2" fill="none" />
+  
+  <!-- Registry Security -->
+  <circle cx="1080" cy="820" r="40" fill="#e3c080" />
+  <text x="1080" y="820" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Registry</text>
+  <text x="1080" y="835" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Security</text>
+  <path d="M948 750 L1050 800" stroke="#e3c080" stroke-width="2" fill="none" />
+  
+  <!-- Virtualization Security Subnodes -->
+  <!-- Hypervisor -->
+  <circle cx="1120" cy="380" r="35" fill="#80d3e3" />
+  <text x="1120" y="385" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Hypervisor</text>
+  <path d="M1050 425 L1100 395" stroke="#80d3e3" stroke-width="2" fill="none" />
+  
+  <!-- Containers -->
+  <circle cx="1120" cy="450" r="35" fill="#80d3e3" />
+  <text x="1120" y="455" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Containers</text>
+  <path d="M1060 450 L1085 450" stroke="#80d3e3" stroke-width="2" fill="none" />
+  
+  <!-- VM Security -->
+  <circle cx="1120" cy="520" r="35" fill="#80d3e3" />
+  <text x="1120" y="520" font-family="Arial" font-size="12" fill="white" text-anchor="middle">VM</text>
+  <text x="1120" y="535" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Security</text>
+  <path d="M1050 475 L1100 505" stroke="#80d3e3" stroke-width="2" fill="none" />
+  
+  <!-- Level 3 Nodes (Examples) -->
+  <!-- OS Goals Examples -->
+  <rect x="15" y="20" width="90" height="40" rx="5" fill="#bbc6f2" />
+  <text x="60" y="35" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Confidentiality</text>
+  <text x="60" y="50" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Integrity</text>
+  <path d="M90 80 L60 60" stroke="#bbc6f2" stroke-width="1" fill="none" />
+  
+  <!-- OS Hardening Examples -->
+  <rect x="15" y="150" width="90" height="40" rx="5" fill="#bbc6f2" />
+  <text x="60" y="165" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Remove Services</text>
+  <text x="60" y="180" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Strong Passwords</text>
+  <path d="M80 180 L50 170" stroke="#bbc6f2" stroke-width="1" fill="none" />
+  
+  <!-- SQL Injection Examples -->
+  <rect x="15" y="690" width="90" height="40" rx="5" fill="#f2bbbb" />
+  <text x="60" y="705" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Parameterized</text>
+  <text x="60" y="720" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Queries</text>
+  <path d="M90 720 L60 710" stroke="#f2bbbb" stroke-width="1" fill="none" />
+  
+  <!-- Patch Management Examples -->
+  <rect x="1095" y="20" width="90" height="40" rx="5" fill="#bbf2bb" />
+  <text x="1140" y="35" font-family="Arial" font-size="10" fill="black" text-anchor="middle">apt update</text>
+  <text x="1140" y="50" font-family="Arial" font-size="10" fill="black" text-anchor="middle">apt upgrade</text>
+  <path d="M1110 80 L1140 60" stroke="#bbf2bb" stroke-width="1" fill="none" />
+  
+  <!-- UAC Examples -->
+  <rect x="1095" y="690" width="90" height="40" rx="5" fill="#f2e2bb" />
+  <text x="1140" y="705" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Admin Approval</text>
+  <text x="1140" y="720" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Mode</text>
+  <path d="M1080 720 L1110 715" stroke="#f2e2bb" stroke-width="1" fill="none" />
+  
+  <!-- Container Examples -->
+  <rect x="1160" y="430" width="90" height="40" rx="5" fill="#bbf1f2" />
+  <text x="1205" y="445" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Docker</text>
+  <text x="1205" y="460" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Security</text>
+  <path d="M1155 450 L1170 445" stroke="#bbf1f2" stroke-width="1" fill="none" />
+  
+  <!-- Additional Elements -->
+  <!-- Encryption (Floating) -->
+  <circle cx="600" cy="250" r="50" fill="#f28022" />
+  <text x="600" y="250" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Encryption</text>
+  <text x="600" y="270" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Technology</text>
+  <path d="M600 380 L600 300" stroke="#f28022" stroke-width="2" fill="none" />
+  
+  <!-- Remote Access (Floating) -->
+  <circle cx="600" cy="650" r="50" fill="#22f28d" />
+  <text x="600" y="650" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Remote</text>
+  <text x="600" y="670" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Access</text>
+  <path d="M600 520 L600 600" stroke="#22f28d" stroke-width="2" fill="none" />
+  
+  <!-- Best Practices (Floating) -->
+  <circle cx="400" cy="450" r="50" fill="#f222d6" />
+  <text x="400" y="445" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Best</text>
+  <text x="400" y="465" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Practices</text>
+  <path d="M550 450 L450 450" stroke="#f222d6" stroke-width="2" fill="none" />
+  
+  <!-- Remote Access Subnodes -->
+  <circle cx="520" cy="740" r="30" fill="#a5f2c9" />
+  <text x="520" y="740" font-family="Arial" font-size="10" fill="black" text-anchor="middle">SSH</text>
+  <path d="M580 690 L540 720" stroke="#a5f2c9" stroke-width="1.5" fill="none" />
+  
+  <circle cx="680" cy="740" r="30" fill="#a5f2c9" />
+  <text x="680" y="740" font-family="Arial" font-size="10" fill="black" text-anchor="middle">VPN</text>
+  <path d="M620 690 L660 720" stroke="#a5f2c9" stroke-width="1.5" fill="none" />
+  
+  <!-- Encryption Subnodes -->
+  <circle cx="520" cy="160" r="30" fill="#f2c9a5" />
+  <text x="520" y="155" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Disk</text>
+  <text x="520" y="170" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Encryption</text>
+  <path d="M580 210 L540 180" stroke="#f2c9a5" stroke-width="1.5" fill="none" />
+  
+  <circle cx="680" cy="160" r="30" fill="#f2c9a5" />
+  <text x="680" y="155" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Network</text>
+  <text x="680" y="170" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Encryption</text>
+  <path d="M620 210 L660 180" stroke="#f2c9a5" stroke-width="1.5" fill="none" />
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">OS and Database Security Mind Map</text>
+</svg>
